@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search for Products</title>
+</head>
+<body>
+  <h1>Search for Products on Amazon1</h1>
+  <form method="POST" action="{{ url_for('search') }}">
+    <input type="text" name="keyword" placeholder="Enter keyword">
+    <input type="submit" value="Search">
+  </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<div>
+  <h1 style="font-size: x-large;">Search Results for "{{ article_name }}"</h1>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Link</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in rows %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+             <td><a href="{{ row[2] }}" target="_blank" onclick="window.open(this.href, '_blank'); return false;">Live Link</a></td>
+            <td><img src="{{ row[3] }}" alt="Item Image"></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privac

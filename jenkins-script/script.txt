@@ -1,0 +1,4 @@
+sudo chmod 400 /home/ubuntu/tfkey
+sudo ssh -o StrictHostKeyChecking=no -i /home/ubuntu/tfkey ubuntu@10.0.3.151 'sudo pkill -f "flask_app.py"'
+sudo ssh -o StrictHostKeyChecking=no -i /home/ubuntu/tfkey ubuntu@10.0.3.151 "sudo mkdir -p /home/test/git && cd /home/test/git && sudo git clone https://github.com/shlomi888c/projectschool.git"
+sudo ssh -o StrictHostKeyChecking=no -i /home/ubuntu/tfkey ubuntu@10.0.3.151 'sudo python3 /home/test/git/projectschool/flask_app.py'

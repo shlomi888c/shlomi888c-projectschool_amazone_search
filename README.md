@@ -1,6 +1,6 @@
 # shlomi888c-projectschool_amazone_search
 
-Web Scraping and Database Integration![image](https://github.com/shlomi888c/shlomi888c-projectschool_amazone_search/assets/100487390/ccb36241-4932-4097-88b6-d5aee0d6f7af)
+                                                      Web Scraping and Database Integration
 
 My  project goal is to create an application that performs real-time product searches on Amazon.com and stores the search results 	 in a   in the database.
 The key objectives were to build a user-friendly interface, automate data extraction from Amazon.com, and ensure seamless deployment using DevOps tools.

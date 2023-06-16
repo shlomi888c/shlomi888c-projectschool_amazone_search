@@ -1,0 +1,5 @@
+Intro to Secrets Management using Vault
+
+i take this intro to add another user to the rds by vault
+
+https://haydz.github.io/2021/04/25/Secrets-Managent-Vault.html
